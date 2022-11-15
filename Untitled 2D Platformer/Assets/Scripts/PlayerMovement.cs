@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D playerBody;
-    BoxCollider2D coll;
+    CapsuleCollider2D coll;
     Animator anim;
     SpriteRenderer sprite;
     float dirX;
@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         playerBody = GetComponent<Rigidbody2D>();
-        coll = GetComponent<BoxCollider2D>();
+        coll = GetComponent<CapsuleCollider2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
     }
@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
                 Jump();
-        }  
+        }
     }
 
     void Jump()     //Player jump

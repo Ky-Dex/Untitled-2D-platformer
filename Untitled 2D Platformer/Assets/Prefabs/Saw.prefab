@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 8135098003581568490}
   - component: {fileID: 8135098003581568491}
   - component: {fileID: 8135098003581568484}
-  - component: {fileID: 8135098003581568488}
   m_Layer: 0
   m_Name: Saw
   m_TagString: trap
@@ -120,7 +119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98727210a1cc40e45bb4e00feac5c285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints: []
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
   speed: 2
 --- !u!58 &8135098003581568484
 CircleCollider2D:
@@ -138,19 +139,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.055268
---- !u!114 &8135098003581568488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8135098003581568486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98727210a1cc40e45bb4e00feac5c285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  speed: 2

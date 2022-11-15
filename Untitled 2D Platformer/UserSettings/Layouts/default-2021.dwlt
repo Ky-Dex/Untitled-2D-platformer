@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 9873
+  controlID: 105
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 9923
+  controlID: 52
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 9880
+  controlID: 53
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   - {fileID: 18}
   - {fileID: 19}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 3
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -397,9 +397,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 086e3cd7edcd9a44a90d5ee948b59313, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: b50cc6b77733482449ecd236c20962cd, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1951414644713071756, guid: 086e3cd7edcd9a44a90d5ee948b59313, type: 2}
+  - m_Target: {fileID: 830131783426911088, guid: b50cc6b77733482449ecd236c20962cd, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -443,23 +443,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7a13feff
-      m_LastClickedID: -126086
-      m_ExpandedIDs: 28e2fdffb0e2fdff7a13feffce32fefffaf0ffff1afbffff10710000
+      m_SelectedIDs: a2dfffff
+      m_LastClickedID: 0
+      m_ExpandedIDs: 1ae3ffff26fbffff885f0000cc5f00001c600000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Spike (14)
+        m_OriginalName: Spike (14)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -1372
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -749,9 +749,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 21.290325, y: 0.57713294, z: -0.53154945}
+    m_Target: {x: 12.226418, y: 4.223065, z: 0.24311031}
     speed: 2
-    m_Value: {x: 21.290325, y: 0.57713294, z: -0.53154945}
+    m_Value: {x: 12.226418, y: 4.223065, z: 0.24311031}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -802,9 +802,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.8944187
+    m_Target: 15.061358
     speed: 2
-    m_Value: 4.8944187
+    m_Value: 15.061358
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -962,22 +962,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\Untitled-2D-platformer\Untitled 2D Platformer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 386c0000
-    m_LastClickedID: 27704
-    m_ExpandedIDs: 00000000ae640000666a0000f06d000000ca9a3b
+    m_SelectedIDs: ae640000
+    m_LastClickedID: 25774
+    m_ExpandedIDs: 00000000a0640000a2640000a464000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1005,7 +1005,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ae640000666a000000ca9a3b
+    m_ExpandedIDs: 00000000a0640000a2640000a4640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1091,7 +1091,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -126086
+  m_LastSelectedObjectID: 24664
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
