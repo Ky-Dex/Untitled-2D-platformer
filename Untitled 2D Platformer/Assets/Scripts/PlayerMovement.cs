@@ -24,20 +24,23 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        dirX = Input.GetAxisRaw("Horizontal");
-        playerBody.velocity = new Vector2(dirX * speed, playerBody.velocity.y);
-        UpdateAnimationState();
+        if(playerBody.bodyType != RigidbodyType2D.Static)
+        {
+            dirX = Input.GetAxisRaw("Horizontal");
+            playerBody.velocity = new Vector2(dirX * speed, playerBody.velocity.y);
+            UpdateAnimationState();
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
-            Jump();
+            if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
+                Jump();
+        }  
     }
 
-    void Jump()     //player jump
+    void Jump()     //Player jump
     {
         playerBody.velocity = new Vector2(playerBody.velocity.x, jumpPower);
     }
 
-    void UpdateAnimationState()             //Sets animations
+    void UpdateAnimationState()             //Sets animation states
     {
         MovementState state;
 
